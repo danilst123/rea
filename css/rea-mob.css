@@ -1,0 +1,914 @@
+@media screen and (min-width: 1024px) {
+  .rea {
+    display: none;
+  }
+  a.tel {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links {
+    padding-left: 0;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links div:nth-child(1) {
+    margin-left: -60px;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links div:nth-child(2) {
+    padding: 2px 0px 0px 65px;
+    background-position: left 25px top 2px;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links div:nth-child(2) p {
+    width: auto;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links a {
+    font-size: 16px;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links .rea-links__link {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 10px;
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links .rea-links__link svg {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 40px;
+    margin-right: 10px;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  .lanit-rea-header-mid .lanit-rea-header-mid-links .rea-links__link a {
+    white-space: normal;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #s4-workspace {
+    opacity: 0;
+  }
+  body {
+    overflow: visible;
+  }
+  .rea {
+    display: block;
+    padding-top: 120px;
+  }
+  .rea .jcarousel-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .rea .jcarousel-pagination a {
+    margin: 3px;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url("https://www.rea.ru/_controltemplates/15/views/lanit.rea.nav/Brands/Default/Images/paging-big.png") no-repeat -91px 0px;
+  }
+  .rea .jcarousel-pagination a.active {
+    background-position: -2px 0;
+  }
+  .rea-section-title {
+    font-family: "PT Sans",sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 15px;
+  }
+  .rea-header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    min-width: 320px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .rea-header__panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 120px;
+    padding: 0 15px;
+    -webkit-box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .rea-header__toggle {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    min-width: 320px;
+    width: 100%;
+    height: calc(100% - 120px);
+    background-color: #17202b;
+    padding: 30px 15px;
+    overflow: auto;
+    display: none;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title {
+    background-size: 50px auto;
+    padding: 0 0 0 60px;
+    width: 255px;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title h1 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title span {
+    font-size: inherit;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title p {
+    font-size: 14px;
+    padding: 0;
+    margin-top: 2px;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title br {
+    display: none;
+  }
+  .rea-header__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .rea-header__right .lanit-rea-header-top-lang {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .rea-header__right .lanit-rea-header-top-lang li {
+    margin-left: 10px;
+  }
+  .rea-header__right .lanit-rea-header-top-lang li:last-child {
+    display: none;
+  }
+  .rea-header__right .lanit-rea-header-top-lang li a {
+    padding: 0;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .rea-header__right .lanit-rea-header-top-lang li a.lanit-rea-header-top-lang-cur {
+    background-color: #960c1c;
+    cursor: default;
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+  }
+  .rea-header__right .lanit-rea-header-top-auth-signin {
+    display: block;
+    width: auto;
+    color: #000;
+  }
+  .rea-header__right .lanit-rea-header-top-auth-signin a {
+    color: inherit;
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rea-header__right .lanit-rea-header-top-auth-signin .icon-lock:before {
+    color: inherit;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .rea-header__toggler {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .rea-nav__list {
+    margin-bottom: 30px;
+  }
+  .rea-nav__list li {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .rea-nav__list li a {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+  }
+  .rea-nav__list li .lanit-rea-border {
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  .rea-nav__list li .lanit-rea-border br + br {
+    display: none;
+  }
+  .rea-nav__list li .lanit-rea-btn {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+  .rea-nav__bunners .sc + .sc,
+  .rea-nav__bunners .bi + .bi {
+    display: none;
+  }
+  .rea-docs {
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+  .rea-docs:first-of-type {
+    margin-top: 15px;
+  }
+  .rea-showcase {
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .rea-showcase__slider {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .rea-showcase__slider li {
+    width: 100vw;
+    margin-right: 15px;
+  }
+  .rea-showcase__slider li a {
+    display: block;
+  }
+  .rea-showcase__slider li a img {
+    width: 100% !important;
+    height: auto;
+  }
+  .rea-calendar {
+    padding: 30px 15px;
+    overflow: hidden;
+    background: #efefef;
+  }
+  .rea-calendar__all {
+    margin-bottom: 10px;
+  }
+  .rea-calendar__all .lanit-rea-all-events {
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rea-calendar__slider {
+    width: calc(100vw - 30px);
+    overflow: hidden;
+  }
+  .rea-calendar__slider li {
+    width: calc(50vw - 22px);
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  .rea-calendar__slider li .lanit-rea-events-top {
+    display: block;
+  }
+  .rea-calendar__slider li .lanit-rea-events-top td {
+    display: block;
+  }
+  .rea-calendar__slider li .lanit-rea-events-top dt, .rea-calendar__slider li .lanit-rea-events-top dd {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rea-calendar__slider li .lanit-rea-events-top strong {
+    display: block;
+  }
+  .rea-calendar__slider li .lanit-rea-events-top .imgCal {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .rea-calendar__dates .lanit-rea-data-carousel {
+    width: 290px;
+    margin: 20px auto 0;
+  }
+  .rea-calendar__dates .lanit-rea-data-carousel .jcarousel {
+    margin: 0 auto;
+  }
+  .rea-calendar__dates .lanit-rea-data-carousel .carousel li {
+    height: 40px;
+  }
+  .rea-calendar__dates .lanit-rea-data-carousel .jcarousel-control-prev {
+    left: 0;
+  }
+  .rea-calendar__dates .lanit-rea-data-carousel .jcarousel-control-next {
+    right: 0;
+  }
+  .rea-news {
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+  .rea-news__all {
+    margin-bottom: 10px;
+  }
+  .rea-news__all .lanit-rea-all-events {
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rea-news__list .lanit-rea-news-top {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  .rea-news__list .lanit-rea-news-top:not(:nth-of-type(1)):not(:nth-of-type(2)):not(:nth-of-type(3)):not(:nth-of-type(4)) {
+    display: none;
+  }
+  .rea-news__list .lanit-rea-news-top dt .newsImage {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .rea-news__list .lanit-rea-news-top dt strong {
+    font-size: 18px;
+    line-height: 1.2;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .rea-news__list .lanit-rea-news-top dt span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #fff;
+  }
+  .rea-news__list .lanit-rea-news-top dd {
+    font-size: 16px;
+  }
+  .rea-ratings {
+    margin-top: 20px;
+  }
+  .rea-ratings .lanit-rea-content-main-banner-ranked {
+    margin: 0 auto;
+  }
+  .rea-bunner {
+    text-align: center;
+  }
+  .rea-diplomas {
+    padding: 30px 15px;
+  }
+  .rea-diplomas__slider .lanit-rea-nav-diplomas {
+    width: 275px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+  }
+  .rea-diplomas__slider .lanit-rea-nav-diplomas dl {
+    height: 75px;
+    margin-bottom: 7px;
+  }
+  .rea-diplomas__slider .lanit-rea-nav-diplomas dt {
+    padding: 12px 10px 3px 85px;
+    min-height: 36px;
+  }
+  .rea-diplomas__slider .lanit-rea-nav-diplomas a {
+    text-decoration: none;
+    color: #000;
+    line-height: 12px;
+  }
+  .rea-diplomas__slider .lanit-rea-paging-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .rea-diplomas__slider .lanit-rea-paging-list .jcarousel-pagination {
+    margin: 0;
+  }
+  .rea-experts {
+    padding: 30px 15px;
+    overflow: hidden;
+    background: #f0f3f6;
+  }
+  .rea-experts__all {
+    margin-bottom: 10px;
+  }
+  .rea-experts__all .lanit-rea-experts-list-all-pages {
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    float: none;
+  }
+  .rea-experts__slider {
+    width: calc(100vw - 30px);
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rea-experts__slider li {
+    width: calc(50vw - 22px);
+    margin-right: 15px;
+  }
+  .rea-experts__slider li .lanit-rea-expert {
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+  .rea-experts__slider li .lanit-rea-expert .img {
+    float: none;
+    margin-bottom: 15px;
+  }
+  .rea-experts__slider li .lanit-rea-expert .lanit-rea-expert-info {
+    margin: 0;
+  }
+  .rea-experts__slider li .lanit-rea-expert .lanit-rea-expert-info dt {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .rea-experts__slider li .lanit-rea-expert .lanit-rea-expert-info .lanit-rea-expert-info-descript {
+    display: none;
+  }
+  .rea-experts__slider li dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rea-experts__slider li dl .lanit-rea-experts-photo {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .rea-experts__slider li dl .lanit-rea-experts-photo_avatar {
+    width: 126px;
+    height: 190px;
+    text-align: center;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 15px;
+  }
+  .rea-programs {
+    padding: 30px 15px;
+    background: #0b2d50;
+  }
+  .rea-programs__title {
+    color: #fff;
+  }
+  .rea-programs__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: calc(100% + 20px);
+    margin: -15px -10px;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course {
+    margin: 15px 10px;
+    width: calc(100% / 2 - 20px);
+    overflow: hidden;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course:nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course:nth-child(2) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course:nth-child(3) {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course:nth-child(6) {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course-img {
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course-img img {
+    width: 100% !important;
+    height: auto;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course-overlay {
+    display: none !important;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course-title {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course-title br {
+    display: none;
+  }
+  .rea-programs__list .lanit-rea-nav-edu-courses-course-go {
+    display: none;
+  }
+  .rea-companies {
+    padding: 30px 15px;
+    overflow: hidden;
+    background: #f0f3f6;
+  }
+  .rea-companies__title {
+    margin-bottom: 25px;
+  }
+  .rea-companies__title .lanit-rea-nav-brands-more {
+    width: 100%;
+    float: none;
+  }
+  .rea-companies__title .lanit-rea-nav-brands-more p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .rea-companies__title .lanit-rea-nav-brands-more span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: auto;
+  }
+  .rea-companies__title .lanit-rea-nav-brands-more span.lanit-rea-nav-brands-more-red-big {
+    line-height: 1;
+  }
+  .rea-companies__title .lanit-rea-nav-brands-more .lanit-rea-paging-list {
+    display: none;
+  }
+  .rea-companies__slider {
+    width: calc(100vw - 30px);
+    overflow: hidden;
+  }
+  .rea-companies__slider .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rea-companies__slider li {
+    width: calc(100vw / 3 - 22px);
+    margin-right: 15px;
+  }
+  .rea-companies__slider li a {
+    display: inline-block;
+  }
+  .rea-companies__slider li .lanit-rea-nav-brands-links-image {
+    max-width: 100%;
+    padding: 0;
+  }
+  .rea-companies__bunner {
+    margin-top: 30px;
+  }
+  .rea-companies__bunner .lanit-rea-nav-brands-work {
+    width: 250px;
+    float: none;
+  }
+  .rea-companies__bunner .lanit-rea-nav-brands-work a {
+    border: none;
+    outline: none;
+  }
+  .rea-abit {
+    padding: 15px;
+  }
+  .rea-abit__content .scale {
+    width: calc(50% - 12px);
+    margin: 0 5px 10px;
+  }
+  .rea-abit__content .scale img {
+    max-width: 100%;
+    height: auto;
+  }
+  .rea-abit__content [itemprop="eduAccred"] {
+    width: calc(100vw - 30px);
+    overflow: auto;
+  }
+  .rea-abit__content [itemprop="eduAccred"] table {
+    width: 800px;
+  }
+  .rea-abit__links a {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  .rea-abit__links a img {
+    float: none;
+  }
+  .rea-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+  .rea-links a:visited {
+    color: #2562ad;
+  }
+  .rea-links div:not(.rea-links__link) {
+    min-height: 40px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 30px auto;
+    width: calc(50% - 5px);
+  }
+  .rea-links div:not(.rea-links__link):nth-child(1) {
+    background-image: url("https://www.rea.ru/ru/PublishingImages/Main/icon_point.svg");
+    background-size: 50px auto;
+    padding-left: 35px;
+    background-position: left -12px top -7px;
+  }
+  .rea-links div:not(.rea-links__link):nth-child(2) {
+    background-image: url("../img/folder-small.png");
+    display: none;
+  }
+  .rea-links__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: calc(50% - 5px);
+  }
+  .rea-links__link svg {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 40px;
+    margin-right: 10px;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  .rea-links .send-docs {
+    display: none;
+  }
+  .rea-socials {
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+  .rea-socials .lanit-rea-header-mid-social {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rea-socials .lanit-rea-header-mid-social a {
+    margin: 0 2px;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .rea-socials .lanit-rea-header-mid-social a:nth-child(1) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .rea-socials .lanit-rea-header-mid-social a:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .rea-socials .lanit-rea-header-mid-social a:nth-child(3) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .rea-tels {
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+  .rea-tels__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    background: #1c2d4f;
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 20px 0 12px;
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    outline: none;
+  }
+  .rea-tels__btn svg {
+    height: 25px;
+    width: 34px;
+    fill: #fff;
+    margin-right: 16px;
+  }
+  .rea-footer {
+    padding: 30px 15px;
+    color: #fff;
+    background: #17202b;
+  }
+  .rea-footer-menu {
+    margin-bottom: 30px;
+  }
+  .rea-footer-menu__list {
+    margin-bottom: 30px;
+  }
+  .rea-footer-menu__list > li {
+    margin-bottom: 15px;
+  }
+  .rea-footer-menu__list > li li {
+    margin-bottom: 5px;
+  }
+  .rea-footer-menu__list > li li a {
+    color: #babdc0;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rea-footer-menu__list > li:first-child ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rea-footer-menu__list > li:first-child ul li {
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .rea-footer-menu__list > li:first-child ul li:first-child {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .rea-footer-menu__list > li:first-child ul li:nth-of-type(6) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .rea-footer-menu__bunners > p {
+    margin-bottom: 5px;
+  }
+  .rea-footer-menu__bunners > p:nth-of-type(1), .rea-footer-menu__bunners > p:nth-of-type(6) {
+    display: none;
+  }
+  .rea-footer-menu__bunners > p:nth-of-type(3) {
+    font-size: 14px;
+    margin: 0;
+  }
+  .rea-footer-menu__bunners > p:nth-of-type(3):after {
+    content: ':';
+  }
+  .rea-footer-menu__bunners img {
+    display: none;
+  }
+  .rea-footer-menu__bunners a {
+    color: #babdc0;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rea-footer-menu__bunners a:empty {
+    display: none;
+  }
+  .rea-footer-menu__bunners a font, .rea-footer-menu__bunners a h3, .rea-footer-menu__bunners a b {
+    color: inherit;
+  }
+  .rea-footer__copyright {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #414851;
+  }
+  .rea-footer__info {
+    margin-bottom: 30px;
+  }
+  .rea-footer__info li {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+  .rea-footer__info li:empty {
+    display: none;
+  }
+  .rea-footer__info li a {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: underline;
+  }
+  .rea-footer__info li a:hover {
+    text-decoration: none;
+  }
+  .rea-footer__info li .lanit-rea-footer-phone {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .rea-section-title {
+    font-size: 30px;
+  }
+  .rea-programs__list li {
+    width: calc(100% / 3 - 20px);
+  }
+  .rea-companies__slider li {
+    width: calc(100vw / 4 - 19.5px);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .rea-header__left .lanit-rea-header-mid-logo-title {
+    background-size: 40px auto;
+    padding-left: 50px;
+    width: 165px;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title h1 {
+    font-size: 12px;
+  }
+  .rea-header__left .lanit-rea-header-mid-logo-title p {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=rea-mob.css.map */

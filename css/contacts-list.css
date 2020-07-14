@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.contacts-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-list li {
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 15px 20px;
+}
+
+.contacts-list li:nth-child(odd) {
+  background: #eee;
+}
+
+.contacts-list li p {
+  margin: 0;
+}
+
+.contacts-list li p:nth-child(2) {
+  margin-top: 15px;
+}
+
+.contacts-list li p:nth-child(2):before {
+  content: 'Телефон:';
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contacts-list li p:nth-child(3) {
+  margin-top: 15px;
+}
+
+.contacts-list li p:nth-child(3):before {
+  content: 'Ссылка на консультирование в отборочной комиссии факультета:';
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contacts-list li:nth-child(18) p:nth-child(2):before {
+  content: 'Почта:';
+}
+
+.contacts-list li:nth-child(19) p:nth-child(2):before {
+  content: 'Перейти в раздел:';
+}
+
+.contacts-list li a {
+  word-wrap: break-word;
+}
+/*# sourceMappingURL=contacts-list.css.map */

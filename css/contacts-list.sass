@@ -1,0 +1,32 @@
+.contacts-list
+  list-style-type: none
+  margin: 0
+  padding: 0
+  li
+    font-size: 16px
+    line-height: 1.4
+    padding: 15px 20px
+    &:nth-child(odd)
+      background: #eee
+    p
+      margin: 0
+      &:nth-child(2)
+        margin-top: 15px
+        &:before
+          content: 'Телефон:'
+          display: block
+          font-weight: 700
+          font-size: 14px  
+      &:nth-child(3)  
+        margin-top: 15px
+        &:before
+          content: 'Ссылка на консультирование в отборочной комиссии факультета:'
+          display: block
+          font-weight: 700
+          font-size: 14px
+    &:nth-child(18) p:nth-child(2):before
+      content: 'Почта:'
+    &:nth-child(19) p:nth-child(2):before
+      content: 'Перейти в раздел:'
+    a
+      word-wrap: break-word

@@ -1,0 +1,680 @@
+@media screen and (min-width: 1024px)
+  .rea
+    display: none
+
+  a.tel
+    color: inherit !important
+    text-decoration: none !important
+    pointer-events: none
+  .lanit-rea-header-mid
+    .lanit-rea-header-mid-links 
+      padding-left: 0
+      div
+        &:nth-child(1)
+          margin-left: -60px
+        &:nth-child(2)
+          padding: 2px 0px 0px 65px
+          background-position: left 25px top 2px
+          p
+            width: auto      
+      a
+        font-size: 16px
+      .rea-links__link
+        width: auto
+        display: flex
+        align-items: flex-start
+        margin-left: 10px
+        svg
+          flex-shrink: 0
+          width: 40px
+          margin-right: 10px
+          transform: translateY(-5px)
+        a
+          white-space: normal
+          line-height: 1.1
+  
+@media screen and (max-width: 1023px)
+  *
+    box-sizing: border-box
+
+  #s4-workspace
+    opacity: 0
+
+  body
+    overflow: visible
+
+  .rea
+    display: block
+    padding-top: 120px
+
+    .jcarousel-pagination 
+      display: flex
+      align-items: center
+      justify-content: center
+      flex-wrap: wrap
+      padding: 0 10px
+      text-align: center
+      margin-top: 20px
+      a 
+        margin: 3px
+        padding: 0
+        width: 22px
+        height: 22px
+        background: url("https://www.rea.ru/_controltemplates/15/views/lanit.rea.nav/Brands/Default/Images/paging-big.png") no-repeat -91px 0px
+        &.active 
+          background-position: -2px 0
+
+    &-section-title
+      font-family: "PT Sans",sans-serif
+      font-size: 24px
+      line-height: 1.2
+      font-weight: 700
+      margin: 0 0 15px
+
+    &-header
+      position: fixed
+      z-index: 1000
+      top: 0
+      left: 0
+      min-width: 320px
+      width: 100%
+      background-color: #fff
+
+      &__panel
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 120px
+        padding: 0 15px
+        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1)
+
+      &__toggle
+        position: fixed
+        top: 120px
+        left: 0
+        min-width: 320px
+        width: 100%
+        height: calc(100% - 120px)
+        background-color: #17202b
+        padding: 30px 15px
+        overflow: auto
+        display: none
+
+      &__left
+        // logo
+        .lanit-rea-header-mid-logo-title
+          background-size: 50px auto
+          padding: 0 0 0 60px
+          width: 255px
+          h1
+            font-size: 16px
+            line-height: 1.4
+          span
+            font-size: inherit
+          p
+            font-size: 14px
+            padding: 0
+            margin-top: 2px
+          br
+            display: none
+
+      &__right
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+
+        // language
+        .lanit-rea-header-top-lang
+          padding: 0
+          display: flex
+          align-items: center
+          margin-bottom: 10px
+          li
+            margin-left: 10px
+            &:last-child
+              display: none
+            a
+              padding: 0
+              display: inline-block
+              font-size: 16px
+              &.lanit-rea-header-top-lang-cur
+                background-color: #960c1c
+                cursor: default
+                text-decoration: none
+                padding: 5px
+                color: #fff
+
+        // auth
+        .lanit-rea-header-top-auth-signin
+          display: block
+          width: auto
+          color: #000
+          a
+            color: inherit
+            font-size: 16px
+            line-height: 1
+            text-decoration: none
+            display: inline-flex
+            align-items: center
+          .icon-lock:before
+            color: inherit
+            font-size: 20px
+            margin-right: 5px
+      
+      &__toggler
+        cursor: pointer
+        margin-bottom: 10px
+
+    &-nav
+      &__list
+        margin-bottom: 30px
+        li
+          font-size: 16px
+          line-height: 1.2
+          color: #fff
+          text-transform: uppercase
+          margin-bottom: 10px
+          cursor: pointer
+          a
+            color: inherit
+            font-size: inherit
+            line-height: inherit
+            text-decoration: none
+          .lanit-rea-border
+            border: none
+            padding: 0
+            width: 100%
+            br + br
+              display: none
+          .lanit-rea-btn
+            padding: 0
+            border: none
+            background: none
+      &__bunners
+        .sc + .sc,
+        .bi + .bi
+          display: none
+    
+    &-docs
+      padding: 0 15px
+      margin: 20px 0
+      &:first-of-type
+        margin-top: 15px
+      
+    &-showcase
+      overflow: hidden
+      margin-bottom: 30px
+      &__slider
+        width: 100vw
+        overflow: hidden
+        li
+          width: 100vw
+          margin-right: 15px
+          a
+            display: block
+            img
+              width: 100% !important
+              height: auto
+
+    &-calendar
+      padding: 30px 15px
+      overflow: hidden    
+      background: #efefef
+      &__all
+        margin-bottom: 10px
+        .lanit-rea-all-events
+          padding: 0
+          font-size: 16px
+          line-height: 1.2
+      &__slider
+        width: calc(100vw - 30px)
+        overflow: hidden
+        li
+          width: calc(50vw - 22px)
+          overflow: hidden
+          margin-right: 15px
+          .lanit-rea-events-top
+            display: block
+            td
+              display: block
+            dt, dd
+              font-size: 16px
+              line-height: 1.2
+            strong
+              display: block
+            .imgCal
+              width: 100%
+              max-width: 100%
+              height: auto
+              max-height: 100%
+              display: block
+              margin-bottom: 15px
+      &__dates
+        .lanit-rea-data-carousel
+          width: 290px
+          margin: 20px auto 0
+          .jcarousel
+            margin: 0 auto
+          .carousel
+            li
+              height: 40px
+          .jcarousel-control-prev
+            left: 0
+          .jcarousel-control-next
+            right: 0
+   
+    &-news
+      overflow: hidden
+      padding: 0 15px
+      margin: 20px 0
+      &__all
+        margin-bottom: 10px
+        .lanit-rea-all-events
+          padding: 0
+          font-size: 16px
+          line-height: 1.2
+      &__list
+        .lanit-rea-news-top
+          position: relative
+          margin-bottom: 15px
+          padding-bottom: 15px
+          border-bottom: 1px solid #ccc
+          &:not(:nth-of-type(1)):not(:nth-of-type(2)):not(:nth-of-type(3)):not(:nth-of-type(4))
+            display: none            
+          dt
+            .newsImage
+              width: 100% !important
+              height: auto
+              margin-bottom: 5px
+            strong
+              font-size: 18px
+              line-height: 1.2
+              display: block
+              margin-bottom: 10px
+            span
+              position: absolute
+              top: 0
+              right: 0
+              padding: 4px 8px
+              font-size: 14px
+              line-height: 1.2
+              color: #fff
+          dd
+            font-size: 16px
+    
+    &-ratings
+      margin-top: 20px
+      .lanit-rea-content-main-banner-ranked
+        margin: 0 auto
+
+    &-bunner
+      text-align: center
+    
+    &-diplomas
+      padding: 30px 15px
+      &__slider
+        .lanit-rea-nav-diplomas 
+          width: 275px
+          margin: 0 auto
+          overflow: hidden
+          padding: 0
+          dl
+            height: 75px
+            margin-bottom: 7px
+          dt
+            padding: 12px 10px 3px 85px
+            min-height: 36px
+          a 
+            text-decoration: none
+            color: #000
+            line-height: 12px
+        .lanit-rea-paging-list
+          display: flex
+          justify-content: center
+          align-items: center
+          margin-top: 20px
+          .jcarousel-pagination
+            margin: 0
+
+    &-experts
+      padding: 30px 15px
+      overflow: hidden
+      background: #f0f3f6
+      &__all
+        margin-bottom: 10px
+        .lanit-rea-experts-list-all-pages
+          padding: 0
+          font-size: 16px
+          line-height: 1.2
+          float: none
+      &__slider
+        width: calc(100vw - 30px)
+        overflow: hidden
+        font-size: 16px
+        line-height: 1.2
+        li
+          width: calc(50vw - 22px)
+          margin-right: 15px
+          .lanit-rea-expert
+            border: none
+            padding: 0
+            margin: 0
+            height: auto
+            .img
+              float: none
+              margin-bottom: 15px
+            .lanit-rea-expert-info
+              margin: 0
+              dt
+                font-size: 20px
+                padding: 0
+                margin-bottom: 5px
+              .lanit-rea-expert-info-descript
+                display: none
+          dl
+            display: flex
+            flex-direction: column
+            .lanit-rea-experts-photo
+              order: -1
+              &_avatar
+                width: 126px
+                height: 190px
+                text-align: center
+                float: left
+                background-size: cover
+                background-position: center center
+                margin-bottom: 15px
+
+    &-programs
+      padding: 30px 15px
+      background: #0b2d50
+      &__title
+        color: #fff
+      &__list
+        display: flex
+        flex-wrap: wrap
+        width: calc(100% + 20px)
+        margin: -15px -10px
+        .lanit-rea-nav-edu-courses-course
+          margin: 15px 10px
+          width: calc(100% / 2 - 20px)
+          overflow: hidden
+          &:nth-child(1)
+            order: 1
+          &:nth-child(2)
+            order: 3
+          &:nth-child(3)
+            order: 5
+          &:nth-child(4)
+            order: 2
+          &:nth-child(5)
+            order: 4
+          &:nth-child(6)
+            order: 6
+            
+          &-img
+            padding: 0
+            margin-bottom: 5px
+            img
+              width: 100% !important
+              height: auto
+          &-overlay
+            display: none !important
+          &-title
+            font-size: 14px
+            line-height: 1.2
+            br
+              display: none
+          &-go
+            display: none
+
+    &-companies
+      padding: 30px 15px
+      overflow: hidden
+      background: #f0f3f6
+      &__title
+        margin-bottom: 25px
+        .lanit-rea-nav-brands-more
+          width: 100%
+          float: none
+          p
+            display: inline-block
+            vertical-align: middle
+            margin-right: 5px
+          span
+            display: inline-block
+            vertical-align: middle
+            margin-right: 5px
+            width: auto
+            &.lanit-rea-nav-brands-more-red-big
+              line-height: 1
+          .lanit-rea-paging-list
+            display: none
+      &__slider
+        width: calc(100vw - 30px)
+        overflow: hidden
+        .carousel
+          display: flex
+          align-items: center
+        li
+          width: calc(100vw / 3 - 22px)
+          margin-right: 15px
+          a
+            display: inline-block
+          .lanit-rea-nav-brands-links-image
+            max-width: 100%
+            padding: 0
+      &__bunner
+        margin-top: 30px
+        .lanit-rea-nav-brands-work
+          width: 250px
+          float: none
+          a
+            border: none
+            outline: none
+    
+    &-abit
+      padding: 15px
+      &__content
+        .scale
+          width: calc(50% - 12px)
+          margin: 0 5px 10px
+          img
+            max-width: 100%
+            height: auto
+        // таблица телефонов
+        [itemprop="eduAccred"]
+          width: calc(100vw - 30px)
+          overflow: auto
+          table
+            width: 800px
+      &__links
+        a
+          display: block
+          font-size: 16px
+          line-height: 1.4
+          margin-bottom: 5px
+          img
+            float: none
+
+    &-links
+      display: flex
+      justify-content: space-between
+      padding: 0 15px
+      margin: 20px 0
+      a:visited
+        color: #2562ad
+      div:not(.rea-links__link)
+        min-height: 40px
+        padding-left: 40px
+        background-repeat: no-repeat
+        background-position: left top
+        background-size: 30px auto
+        width: calc(50% - 5px)
+        &:nth-child(1)
+          background-image: url("https://www.rea.ru/ru/PublishingImages/Main/icon_point.svg")
+          background-size: 50px auto
+          padding-left: 35px
+          background-position: left -12px top -7px
+        &:nth-child(2)
+          background-image: url("../img/folder-small.png")
+          display: none
+      &__link
+        display: flex
+        align-items: flex-start
+        width: calc(50% - 5px)
+        svg
+          flex-shrink: 0
+          width: 40px
+          margin-right: 10px
+          transform: translateY(-5px)
+      .send-docs
+        display: none
+    
+    &-socials
+      padding: 0 15px
+      margin: 20px 0
+      .lanit-rea-header-mid-social
+        text-align: center
+        display: flex
+        justify-content: center
+        align-items: center
+        a
+          margin: 0 2px
+          order: 5
+          &:nth-child(1)
+            order: 3
+          &:nth-child(2)
+            order: 1
+          &:nth-child(3)
+            order: 2
+
+    &-tels
+      padding: 0 15px
+      margin: 20px 0
+      &__btn
+        display: flex
+        align-items: center
+        width: 100%
+        height: 44px
+        border-radius: 5px
+        background: #1c2d4f
+        color: #ffffff
+        font-family: "PT Sans", sans-serif
+        font-size: 16px
+        font-weight: 400
+        padding: 0 20px 0 12px
+        position: relative
+        white-space: nowrap
+        margin: 0
+        outline: none
+        svg
+          height: 25px
+          width: 34px
+          fill: #fff
+          margin-right: 16px
+               
+    &-footer
+      padding: 30px 15px
+      color: #fff
+      background: #17202b
+      &-menu
+        margin-bottom: 30px
+        &__list
+          margin-bottom: 30px
+          & > li
+            margin-bottom: 15px
+            li
+              margin-bottom: 5px
+              a
+                color: #babdc0
+                font-size: 16px
+                line-height: 1.2
+            &:first-child
+              ul
+                display: flex
+                flex-direction: column
+                li
+                  width: 100%
+                  order: 3
+                  &:first-child
+                    order: 1
+                  &:nth-of-type(6)
+                    order: 2
+        &__bunners
+          & > p
+            margin-bottom: 5px
+            &:nth-of-type(1),
+            &:nth-of-type(6)              
+              display: none
+            &:nth-of-type(3)
+              font-size: 14px
+              margin: 0
+              &:after
+                content: ':'
+          img
+            display: none
+          a
+            color: #babdc0
+            font-size: 16px
+            line-height: 1.2
+            &:empty
+              display: none
+            font, h3, b
+              color: inherit
+                    
+      &__copyright
+        font-size: 18px
+        line-height: 1.4
+        color: #fff
+        text-align: center
+        margin-top: 30px
+        padding-top: 30px
+        border-top: 1px solid #414851
+      &__info
+        margin-bottom: 30px
+        li
+          color: #fff
+          font-size: 18px
+          line-height: 1.2
+          margin-bottom: 5px
+          &:empty
+            display: none
+          a
+            color: inherit
+            font-size: inherit
+            line-height: inherit
+            text-decoration: underline
+            &:hover
+              text-decoration: none
+          .lanit-rea-footer-phone
+            padding: 0
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+  .rea
+    &-section-title
+      font-size: 30px
+    &-programs
+      &__list
+        li
+          width: calc(100% / 3 - 20px)
+    &-companies
+      &__slider
+        li
+          width: calc(100vw / 4 - 19.5px)
+          text-align: center
+
+
+@media screen and (max-width: 359px)
+  .rea
+    &-header
+      &__left
+        .lanit-rea-header-mid-logo-title
+          background-size: 40px auto
+          padding-left: 50px
+          width: 165px
+          h1
+            font-size: 12px
+          p
+            font-size: 10px
+
