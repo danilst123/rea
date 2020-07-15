@@ -2,49 +2,6 @@
   .rea {
     display: none;
   }
-  a.tel {
-    color: inherit !important;
-    text-decoration: none !important;
-    pointer-events: none;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links {
-    padding-left: 0;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links div:nth-child(1) {
-    margin-left: -60px;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links div:nth-child(2) {
-    padding: 2px 0px 0px 65px;
-    background-position: left 25px top 2px;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links div:nth-child(2) p {
-    width: auto;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links a {
-    font-size: 16px;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links .rea-links__link {
-    width: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin-left: 10px;
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links .rea-links__link svg {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    width: 40px;
-    margin-right: 10px;
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
-  .lanit-rea-header-mid .lanit-rea-header-mid-links .rea-links__link a {
-    white-space: normal;
-    line-height: 1.1;
-  }
 }
 
 @media screen and (max-width: 1023px) {

@@ -108,10 +108,40 @@
       // &__list
       //   @media screen and (max-width: 1023px)
       //     display: block
+  
+a.tel
+  color: inherit !important
+  text-decoration: none !important
+  pointer-events: none
 
-.lanit-rea-header-mid-links
-  position: relative
-  .send-docs
-    position: absolute
-    top: 0
-    left: 54px
+.lanit-rea-header-mid
+  .lanit-rea-header-mid-links 
+    padding-left: 0
+    position: relative
+    div
+      &:nth-child(1)
+        margin-left: -60px
+      &:nth-child(2)
+        padding: 2px 0px 0px 65px
+        background-position: left 25px top 2px
+        p
+          width: auto      
+    a
+      font-size: 16px
+    .rea-links__link
+      width: auto
+      display: flex
+      align-items: flex-start
+      margin-left: 10px
+      svg
+        flex-shrink: 0
+        width: 40px
+        margin-right: 10px
+        transform: translateY(-5px)
+      a
+        white-space: normal
+        line-height: 1.1
+    .send-docs
+      position: absolute
+      top: 0
+      left: 54px
